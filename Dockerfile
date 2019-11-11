@@ -1,7 +1,7 @@
 # This Dockerfile is used to build an image containing an OpenJDK 8 jenkins slave with installed sbt for scala builds
 
 FROM pcvolkmer/jenkins-slave-jdk8
-MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
+MAINTAINER Alexey Novakov
 
 ARG SBT_VERSION=1.3.3
 
