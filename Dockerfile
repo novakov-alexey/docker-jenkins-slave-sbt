@@ -3,7 +3,7 @@
 FROM pcvolkmer/jenkins-slave-jdk8
 MAINTAINER Paul-Christian Volkmer <mail@pcvolkmer.de>
 
-ENV SBT_VERSION 1.0.3
+ARG SBT_VERSION=1.3.3
 
 RUN apt-get update && apt-get install bc
 
